@@ -11,6 +11,7 @@
 		B0C909F22B28099400C48C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C909F12B28099400C48C6E /* ContentView.swift */; };
 		B0C909F42B28099500C48C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C909F32B28099500C48C6E /* Assets.xcassets */; };
 		B0C909F72B28099500C48C6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C909F62B28099500C48C6E /* Preview Assets.xcassets */; };
+		B0C909FE2B280E5E00C48C6E /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C909FD2B280E5E00C48C6E /* TextBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B0C909F12B28099400C48C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0C909F32B28099500C48C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C909F62B28099500C48C6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0C909FD2B280E5E00C48C6E /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B0C909EF2B28099400C48C6E /* SwiftForBeginnersApp.swift */,
 				B0C909F12B28099400C48C6E /* ContentView.swift */,
+				B0C909FD2B280E5E00C48C6E /* TextBootcamp.swift */,
 				B0C909F32B28099500C48C6E /* Assets.xcassets */,
 				B0C909F52B28099500C48C6E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0C909F22B28099400C48C6E /* ContentView.swift in Sources */,
+				B0C909FE2B280E5E00C48C6E /* TextBootcamp.swift in Sources */,
 				B0C909F02B28099400C48C6E /* SwiftForBeginnersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +278,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
